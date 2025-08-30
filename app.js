@@ -46,7 +46,7 @@ function aleatorio() {
 
 function condicionesIniciales(){
     asignarTextoElemento("h1","Juego de locos xD");
-    asignarTextoElemento("P",`Escoge un numero entre 1 y ${numM}`); //->TODO esto sirve para automatizar la asignacion de texto a un elemento HTML
+    asignarTextoElemento("P","Escoge un numero entre 1 y 100"); //->TODO esto sirve para automatizar la asignacion de texto a un elemento HTML
     numeroSecreto = aleatorio();
     intentos = 1;
     console.log(numeroSecreto);
@@ -97,4 +97,5 @@ parrafo.innerHTML = "Adivina el numero secreto entre 1 y 10";*/ //-> Lo mismo qu
         listaSorteados.push(numeroG);
         return numeroG();
     }
+
 }*/
